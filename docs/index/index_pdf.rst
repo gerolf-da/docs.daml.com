@@ -11,11 +11,11 @@ Getting started
    :titlesonly:
    :maxdepth: 2
 
-   getting-started/installation
-   Building Your App <getting-started/index>
-   getting-started/app-architecture
-   getting-started/first-feature
-   getting-started/testing
+   /getting-started/installation
+   Building Your App </getting-started/index>
+   /getting-started/app-architecture
+   /getting-started/first-feature
+   /getting-started/testing
 
 Daml Guide
 ----------
@@ -24,11 +24,11 @@ Daml Guide
    :titlesonly:
    :maxdepth: 2
 
-   Writing Daml <writing-daml>
-   Building Applications <building-applications>
-   Deploying to Daml Ledgers <deploy/generic_ledger>
-   Operating Daml <operating-daml>
-   Developer Tools <tools>
+   Writing Daml </writing-daml>
+   Building Applications </building-applications>
+   Deploying to Daml Ledgers </deploy/generic_ledger>
+   Operating Daml </operating-daml>
+   Developer Tools </tools>
 
 Canton Guide
 ------------
@@ -37,10 +37,10 @@ Canton Guide
    :titlesonly:
    :maxdepth: 2
 
-   Introduction <canton/about>
-   Tutorials <canton/tutorials/tutorials>
-   User Manual <canton/usermanual/usermanual>
-   Architecture-In-Depth <canton/architecture/architecture>
+   Introduction </canton/about>
+   Tutorials </canton/tutorials/tutorials>
+   User Manual </canton/usermanual/usermanual>
+   Architecture-In-Depth </canton/architecture/architecture>
 
 Help
 ----
@@ -49,10 +49,10 @@ Help
    :titlesonly:
    :maxdepth: 2
 
-   daml/troubleshooting
-   canton/usermanual/error_codes
-   support/support
-   support/compatibility
+   /daml/troubleshooting
+   /canton/usermanual/error_codes
+   /support/support
+   /support/compatibility
 
 Reference
 ---------
@@ -62,15 +62,15 @@ Reference
    :maxdepth: 2
 
    Cheat Sheet <https://docs.daml.com/cheat-sheet>
-   concepts/glossary
+   /concepts/glossary
    Examples <https://daml.com/examples>
-   concepts/ledger-model/index
-   concepts/identity-and-package-management
-   concepts/time
-   concepts/local-ledger
-   concepts/test-evidence
-   support/overview
-   support/releases
+   /concepts/ledger-model/index
+   /concepts/identity-and-package-management
+   /concepts/time
+   /concepts/local-ledger
+   /concepts/test-evidence
+   /support/overview
+   /support/releases
 
 Early Access
 ------------
@@ -79,9 +79,9 @@ Early Access
    :titlesonly:
    :maxdepth: 2
 
-   tools/export/index
-   tools/visual
-   concepts/interoperability
-   tools/non-repudiation
-   ops/connect/helm
-   ops/connect/auth0
+   /tools/export/index
+   /tools/visual
+   /concepts/interoperability
+   /tools/non-repudiation
+   /ops/connect/helm
+   /ops/connect/auth0

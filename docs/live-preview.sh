@@ -25,7 +25,8 @@ mkdir -p $BUILD_DIR/gen
 DATE=$(date +"%Y-%m-%d")
 echo { \"$DATE\" : \"$DATE\" } >  $BUILD_DIR/gen/versions.json
 
-ln -s $PWD/index/index_html.rst $BUILD_DIR/source/source/index.rst
+ln -sf $PWD/index/index_html.rst $BUILD_DIR/source/source/index.rst
+ln -sf $PWD/index $BUILD_DIR/source/source/index
 
 pipenv install
 pipenv run sphinx-autobuild -c $BUILD_DIR/source/configs/html $BUILD_DIR/source/source $BUILD_DIR/gen

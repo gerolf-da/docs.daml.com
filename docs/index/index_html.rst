@@ -15,55 +15,87 @@ Daml Documentation
    :titlesonly:
    :maxdepth: 2
    :hidden:
-   :caption: Getting started
+   :caption: Home
+..
+   Intro to Multi-Party Apps (MISSING)
+   Intro to Daml (MISSING)
+   Basic Concepts (MISSING)
+   High-Level Architecture (MISSING)
 
-   getting-started/installation
-   Building Your App <getting-started/index>
-   getting-started/app-architecture
-   getting-started/first-feature
-   getting-started/testing
+.. toctree::
+   :titlesonly:
+   :maxdepth: 0
+   :includehidden:
+   :caption: Set Up Your Developer Environment
+
+   Installation </getting-started/installation>
+   System Requirements </ops/requirements>
+   Set JAVA_HOME and PATH Variables </getting-started/path-variables>
+   Manual installation </getting-started/manual-download>
+
+..
+   remove toc in getting-started/installation
 
 .. toctree::
    :titlesonly:
    :maxdepth: 2
    :hidden:
-   :caption: Application development
+   :caption: Tutorial: Write Your first Daml app
 
-   Writing Daml <writing-daml>
-   Building Applications <building-applications>
-   Deploying to Daml Ledgers <deploy/generic_ledger>
-   Operating Daml <operating-daml>
-   Developer Tools <tools>
+   Getting Started </getting-started/index>
+   App Architecture </getting-started/app-architecture>
+   Your First Feature </getting-started/first-feature>
+   Test Your App </getting-started/testing>
+..
+   Next Steps (MISSING)
+
+.. toctree::
+   :titlesonly:
+   :maxdepth: 2
+   :hidden:
+   :caption: Create Daml Apps
+
+   Daml Standard Library </index/create-daml-apps/standard-library/index>
+   Integrate Daml with Off-Ledger Services </index/create-daml-apps/off-ledger/index>
+   Developer Tools </index/create-daml-apps/developer-tools/index>
 
 
 .. toctree::
+   :titlesonly:
+   :hidden:
+   :caption: Deploy Daml
+
+   Intro </index/deploy-daml/intro/index>
+   Plan a Deployment </index/deploy-daml/plan-a-deployment/index>
+   Download the Components </index/deploy-daml/download/index>
+..
+   .. toctree::
    :titlesonly:
    :maxdepth: 2
    :hidden:
    :caption: Platform operations
-
    Introduction <canton/about>
    Tutorials <canton/tutorials/tutorials>
    User Manual <canton/usermanual/usermanual>
    Architecture-In-Depth <canton/architecture/architecture>
 
-.. toctree::
+..
+   .. toctree::
    :titlesonly:
    :maxdepth: 2
    :hidden:
    :caption: Help
-
    daml/troubleshooting
    canton/usermanual/error_codes
    support/support
    support/compatibility
 
-.. toctree::
+..
+   .. toctree::
    :titlesonly:
    :maxdepth: 2
    :hidden:
    :caption: Reference
-
    Cheat Sheet <https://docs.daml.com/cheat-sheet>
    concepts/glossary
    Examples <https://daml.com/examples>
@@ -75,12 +107,12 @@ Daml Documentation
    support/overview
    support/releases
 
-.. toctree::
+..
+   .. toctree::
    :titlesonly:
    :maxdepth: 2
    :hidden:
    :caption: Early access
-
    tools/export/index
    tools/visual
    concepts/interoperability
